@@ -1,0 +1,192 @@
+/*
+Theme Name: serebronabora
+Description: Personal theme.
+Author: JohnPoison
+Author URI: http://thefirestar.org/
+Version: 1.0
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu (optional)
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+@import "fonts/fontStylesheet.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+    width: 100%;
+}
+a {
+    color: blue;
+    outline: none;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+p {
+    margin: 0 0 18px
+}
+img {
+    border: none;
+}
+input {
+    vertical-align: middle;
+}
+#wrapper {
+    width: 1200px;
+    padding-left: 34px;
+    padding-right: 34px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+height: 175px;
+    /*height: 215px;*/
+    /*background: #FFE680;*/
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+    width: 100%;
+    height: 1%;
+    position: relative;
+}
+#middle:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+#container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+#content {
+    padding: 0 510px 0 0;
+}
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+    float: left;
+    margin-right: -3px;
+    width: 355px;
+    margin-left: -355px;
+    position: relative;
+    /*background: #FFACAA;*/
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    height: 100px;
+    background: #BFF08E;
+}
+
+
+/* customs */
+
+/* links */
+
+a { text-decoration: none; color: #818181;}
+a.active {color: #000; }
+
+#header { margin-bottom: 27px; }
+
+#siteTitle { padding-top: 58px; padding-bottom: 52px; }
+#siteTitle img { position: relative; top: -10px; }
+/*#siteTitle h1 {font-size: 65px; letter-spacing: 15px; text-transform: uppercase;}*/
+
+#slogan { position: relative;  text-transform: lowercase; top: -29px; }
+#slogan .regular { font-family: 'FilosofiaCyrWebRegular';}
+#slogan p { font-size: 32px; letter-spacing: 4px; }
+
+#lang { float: right; position: relative; top: -31px; left: -255px; }
+#lang a {text-transform: lowercase;}
+
+#content, #sideRight { font-size: 18px; }
+
+#content div.postContent { position: relative; top: -13px; }
+
+h2.pageTitle {margin-bottom: 35px;  }
+
+
+
+
+/* sidebar */
+
+#sideRight .blockTitle { margin-bottom: 20px; height: 18px; }
+#sideRight .block { line-height: 21px; padding-bottom: 20px; margin-bottom: 20px;}
+#sideRight .block p { margin: 0px; }
+/* fonts */
+
+.filosofia, #conferenceSchedule .day { font-family: 'FilosofiaCyrWebRegular'; }
+.filosofiaSmallCaps { font-family: 'FilosofiaCyrWebSmallCaps'; }
+.sans-serif { text-transform: lowercase; font-family: sans-serif; font-weight: lighter; letter-spacing: 3px; font-size: 22px; }
+.circe, .sans-serif { font-family: 'circeregular'; }
+
+/*.filosofia, .filosofiaSmallCaps, .sans-serif {-webkit-font-smoothing: antialiased;}*/
+
+/* colors */
+
+.naturalBlack { color: #2e2e2e; }
+.grayText { color: #7d7d7d; }
+.langGray { color: #818181; }
+
+.darkLine { border-bottom: 2px solid #979797; }
+.lightLine, #conferenceSchedule tr { border-bottom: 1px solid #e4e4e4; }
+
+/* Alignment */
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.625em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.625em;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conferenceRegistration input { width: 343px; }
+
+#conferenceRegistration .thankYou {padding-top: 3px;}
+/*#conferenceRegistration {margin-bottom: 17px;}*/
+
+i, em { font-family: "FilosofiaCyrWebItalic"; font-style: normal;}
+.schedule .more a {display: block;}
+
+.schedule img {padding-bottom: 10px;}
+
+#conferenceSchedule p.day {text-transform: lowercase;}
+
+
+.errorRequired, .serverError, .success, .sending { border: none;}
+.success, .sending, .serverError { background: #efefef; }
+.descript_photo {width:118px; vertical-align:top; padding-top:18px;}
+.descript_title {text-align: left; padding-left: 15px; width: 500px; vertical-align:top; padding-top:18px;}
+.mymain_title {font-family:FilosofiaCyrWebSmallCaps; margin-top:0px; font-size:22px}
+.mymain_hide {display:none; margin-bottom:20px}
+.mymain_hide tr {border-bottom:none !important;}

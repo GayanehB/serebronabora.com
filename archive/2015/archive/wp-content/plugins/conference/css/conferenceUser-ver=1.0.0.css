@@ -1,0 +1,25 @@
+.hide { display: none; }
+
+#conferenceSchedule p.day {font-size: 32px; margin-bottom: 20px;}
+#conferenceSchedule div.schedule table tbody tr {cursor: pointer; }
+#conferenceSchedule div.schedule { margin-bottom: 45px; }
+#conferenceSchedule div.schedule table { width: 100%; border-collapse: collapse; }
+#conferenceSchedule div.schedule table tbody tr td { vertical-align: top; padding-top: 18px; }
+#conferenceSchedule div.schedule table tbody tr td.time { width: 40px;}
+#conferenceSchedule div.schedule table tbody tr td.participants { width: 210px;  padding-left: 34px; padding-right: 34px; }
+/*#conferenceSchedule div.schedule table tbody tr td.description{  }*/
+
+#conferenceRegistration { margin-top: -4px;}
+#conferenceRegistration div.fieldWrapper { padding: 15px;  padding-top: 7px; padding-bottom: 30px; height: 13px; padding-left: 0px; }
+#conferenceRegistration label { position: absolute; z-index: 2; left: 5px; color: #9f9f9f;}
+#conferenceRegistration input, #conferenceRegistration .save { width: 80%; border: 1px solid #efefef; height: 18px; position: absolute;   left: 0px; }
+#conferenceRegistration label, #conferenceRegistration input, #conferenceRegistration .save {
+    font-size: large; padding: 5px; font-family: 'filosofia_cyrregular';
+}
+#conferenceRegistration .save { width: auto; text-align: center; right: 0px; left: auto; padding-left: 15px;}
+#conferenceRegistration div.saveWrapper {padding-bottom: 17px; height: 13px;}
+
+.errorRequired, .serverError, .success, .sending { border: 2px solid red; padding: 5px; text-align: center; background: #FF99CC; margin-top: 20px;}
+.success {border: 2px solid #006666; background: #99FF99; }
+.sending {border: 2px solid #FF6633; background: #FFFFCC;}
+
